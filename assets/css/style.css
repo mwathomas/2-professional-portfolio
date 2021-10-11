@@ -73,16 +73,23 @@ h2 {
 }
 
 main {
-  width: 75%;
-  display: inline-block;
+  display: flex;
   margin-left: 20px;
 }
 
 main div {
+  flex: 1;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
+}
+
+main div section {
+  display: inline-block;
+  border: 1px gray solid;
+}
+main div section img {
 }
