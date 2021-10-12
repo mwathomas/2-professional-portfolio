@@ -4,11 +4,12 @@
   margin: 0;
 }
 
+/* set background for whole page*/
 body {
   background-color: #d9dcd6;
 }
 
-/*used header attribute instead of defining a class*/
+/*formats header box*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -17,19 +18,19 @@ header {
   color: #ffffff;
 }
 
-/* formats the company name in header */
-
-header h1 {
-  display: inline-block;
-  font-size: 48px;
+/*formats buttons*/
+header div {
+  padding: 60px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
 }
 
-header div {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
+/* formats name*/
+header div h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 48px;
 }
 
 header div ul {
@@ -37,26 +38,15 @@ header div ul {
 }
 
 header div ul li {
-  display: inline-block;
   margin-left: 25px;
 }
 
-/*formats header image*/
-header section img {
-  height: 30%;
-  width: 30%;
+/* formats photo and about me section*/
+header div img {
+  height: 50%;
+  width: 50%;
   margin-bottom: 25px;
-  background-position: center;
-}
-
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
+  background-position: left;
 }
 
 /* all images below header have a max size of 200px */
@@ -64,29 +54,29 @@ div img {
   max-height: 200px;
 }
 
-/* formats product offering boxes */
-
-/* consolidated all h2 formatting instead of calling out individually*/
+/* formats section headings*/
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* formats body of page */
 main {
-  display: flex;
   margin-left: 20px;
 }
 
+/* formats sections */
 main div {
   flex: 1;
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
 
+/* project boxes*/
 main div section {
   display: inline-block;
   border: 1px gray solid;
