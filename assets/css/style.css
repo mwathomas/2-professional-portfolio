@@ -66,8 +66,9 @@ h2 {
 #about p {
   display: inline-flex;
   float: right;
-  width: 90%;
+  width: 95%;
   padding: 20px;
+  font-size: 30px;
 }
 
 #work {
@@ -81,8 +82,8 @@ h2 {
 .card {
   display: inline-block;
   width: 30%;
-  padding: 10px;
-  margin-left: 40px;
+  padding: 30px;
+  margin-left: 80px;
 }
 .text {
   display: inline-flex;
@@ -94,7 +95,7 @@ h3 {
   width: 80%;
 }
 
-#work div:hover {
+#work .card:hover {
   background-color: silver;
 }
 
@@ -118,7 +119,7 @@ h3 {
 #contact li {
   display: inline-flex;
   float: right;
-  justify-content: right;
+
   padding: 20px;
   font-family: "Optima", sans-serif;
   background-color: #798071;
