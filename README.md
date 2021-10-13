@@ -1,4 +1,4 @@
-# <Professional Portfolio>>
+# <Professional Portfolio>
 
 ## Description
 
@@ -11,7 +11,8 @@ Open the "assets", "images", and index.html files in VS Code.
 ## Usage
 
 This project is just bare bones right now so there is not much functionality. You can use the buttons at the top to navigate the page and know which project you are hovering over because the bachground changes.
-`md ![Final Output](assets/images/screenshot.png) `
+
+![Final Output](assets/images/screenshot.png) `
 
 ## Credits
 
